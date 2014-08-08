@@ -1,0 +1,117 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.main_container {
+	width: 960px;
+	margin: auto;
+	background-color: #F5F5F5;
+	border-top: 10px solid red;
+}
+
+.large_margin {
+	margin-bottom: 20px;
+}
+
+.secondary_container {
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+h1 {
+	margin: 0;
+	color: #404040;
+}
+
+h2 {
+	margin: 0;
+	color: red;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.sub_title {
+	padding-bottom: 5px;
+	border-bottom: 3px solid #999C8B;
+	margin-bottom: 5px;
+}
+
+.photo {
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	height: 180px;
+	margin-right: 20px;
+	border: 1px dotted gray;
+	float: left;
+}
+
+.statement {
+	position: relative;
+	display: inline-block;
+}
+
+.text_header {
+	font-size: 14px;
+	color: #C1C2BA;
+	text-align: justify;
+}
+
+/* to use on containers with floated elements, check in Bootstrap: clearfix */
+.cf:before,
+.cf:after {
+	content: ' ';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+.col {
+	float: left;
+	margin: 20px 0;
+	width: 33%;
+}
+
+.icon_v {
+	width: 20px;
+	height: 32px;
+	margin: 0 7px 10px 35px;
+	float: left;
+}
+
+.icon_w {
+	width: 32px;
+	height: 20px;
+	margin: 2px 7px 8px 7px;
+	float: left;
+}
+
+.icon_regular {
+	width: 30px;
+	height: 30px;
+	margin: 0 7px 10px 17px;
+	float: left;
+}
+
+.bold_text {
+	display: inline;
+	font-size: 13px;
+	font-style: bold;
+}
+
+.regular_text {
+	display: inline;
+	font-size: 12px;
+	color: #C1C2BA;
+}
