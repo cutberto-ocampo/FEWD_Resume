@@ -7,20 +7,16 @@ body {
 }
 
 .main_container {
-	width: 960px;
+	width: 1100px;
 	margin: auto;
-	background-color: #F5F5F5;
+	background-color: #F8F8F8;
 	border-top: 10px solid red;
-}
-
-.large_margin {
-	margin-bottom: 20px;
 }
 
 .secondary_container {
 	width: 80%;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 15px;
 }
 
 h1 {
@@ -29,26 +25,36 @@ h1 {
 }
 
 h2 {
-	margin: 0;
+	margin: 0 0 10px 0;
 	color: red;
 	font-size: 22px;
 	font-weight: normal;
 }
 
-.sub_title {
-	padding-bottom: 5px;
-	border-bottom: 3px solid #999C8B;
+h3 {
+	margin: 0;
+	color: #404040;
+}
+
+.highlight_text {
+	padding-bottom: 7px;
+	border-bottom: 2px solid #999C8B;
 	margin-bottom: 5px;
+	font-size: 22px;
 }
 
 .photo {
 	position: relative;
 	display: inline-block;
 	width: 130px;
-	height: 180px;
+	height: 160px;
 	margin-right: 20px;
 	border: 1px dotted gray;
 	float: left;
+}
+
+.large_td {
+	padding-bottom: 20px;
 }
 
 .statement {
@@ -83,25 +89,37 @@ h2 {
 	width: 33%;
 }
 
-.icon_v {
-	width: 20px;
-	height: 32px;
-	margin: 0 7px 10px 35px;
+.icon_container {
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 5px 0;
 	float: left;
+	background-color: black;
+	border-radius: 100%;
+	text-align: center;
+}
+
+.icon_v {
+	height: 28px;
+	width: 18px;
+	margin-top: 5px;
+	background-color: white;
+	border: 1px solid white;
 }
 
 .icon_w {
-	width: 32px;
-	height: 20px;
-	margin: 2px 7px 8px 7px;
-	float: left;
+	width: 25px;
+	height: 16px;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px solid white;
 }
 
 .icon_regular {
-	width: 30px;
-	height: 30px;
-	margin: 0 7px 10px 17px;
-	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	margin-top: 9px;
 }
 
 .bold_text {
@@ -111,7 +129,42 @@ h2 {
 }
 
 .regular_text {
-	display: inline;
 	font-size: 12px;
 	color: #C1C2BA;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.thin_column_container {
+	width: 42%;
+	float: left;
+}
+
+.wide_column_container {
+	width: 52%;
+	float: left;
+}
+
+.red_title {
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.black_title {
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.r_align {
+	text-align: right;
+}
+
+tbody {
+	vertical-align: text-top;
+}
+
+table {
+	width: 100%;
 }
